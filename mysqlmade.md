@@ -1,42 +1,22 @@
-
-# 更新源
-
-用vim打开源列表文件。
-
-    sudo vim /etc/apt/sources.list
-
-# 将下面的源粘贴到源列表里。
-
-```sql
-deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
-##测试版源
-deb http://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted universe multiverse
-# 源码
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
-##测试版源
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted universe multiverse
-# Canonical 合作伙伴和附加
-deb http://archive.canonical.com/ubuntu/ xenial partner
-deb http://extras.ubuntu.com/ubuntu/ xenial main
-```
-
-# Apache安装
-
-    sudo apt-get update
-    sudo apt-get install tasksel
-    sudo tasksel
     
 # 连接到本机上的MYSQL
 
-    键入命令mysql -u root -p，回车后提示你输密码.
-    
+        键入命令mysql -u root -p，回车后提示你输密码.
+    
+# 创建数据库
 
+        注意：创建数据库之前要先连接Mysql服务器
+        命令：create database <数据库名>
+        例1：建立一个名为xhkdb的数据库 mysql> create database stu;
+
+# 显示数据库
+
+        命令：show databases （注意：最后有个s） mysql> show databases;
+     
+# 使用数据库
+
+        命令： use <数据库名>
+        例如：如果xhkdb数据库存在，尝试存取它： mysql> use xhkdb; 屏幕提示：Database changed
 
 
 
