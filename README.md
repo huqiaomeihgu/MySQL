@@ -2,11 +2,7 @@
 
 * [linux命令](./linux.md)
 
-* [git命令](./gitcom.md)
-
-* [git远程仓库命令](./gitfar.md)
-
-* [git本地仓库命令](./gitlocal.md)
+* [git文档](./gitcom.md)
 
 * [github操作](./github.md)
 
