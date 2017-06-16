@@ -10,7 +10,6 @@
 
 * [MySQL指令](./mysqlcom.md)
 
-* [安装数据库](./mysqlinstall.md)
 
 
 # 课程设计
