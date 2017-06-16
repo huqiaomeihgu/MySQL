@@ -44,15 +44,6 @@ sudo tasksel
 
 # 显示数据库
 
-        命令：show databases （注意：最后有个s） mysql> show databases;
-     
-# 使用数据库
-
-        命令： use <数据库名>
-        例如：如果xhkdb数据库存在，尝试存取它： mysql> use xhkdb; 屏幕提示：Database changed
-
-# 显示数据库
-
         show databases （注意：最后有个s） mysql> show databases;
 # 删除数据库
 
@@ -69,6 +60,12 @@ sudo tasksel
 mysql> create table information(sno char(15) not null primary key,sname char(20),sage int default 20,schoolno char(15),foreign key (schoolno) references school(schoolno));
 ```
 
+## 显示数据库中的表
+
+在use数据库的情况下
+
+        命令：show tables;
+        
 ## 表结构
 
     desc 表名 //查看表格结构
