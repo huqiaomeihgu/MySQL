@@ -17,7 +17,7 @@
    
           例如：mv dir  dir2:重命名
          
-              mv dir  /home/linux/:移动
+               mv dir  /home/linux/:移动
    
    5.  ls -d 目录名：列出目录列表
    
