@@ -114,7 +114,6 @@
     ```c
     
     #include <stdio> 
-    
     int main(void) {
       
       printf("hello \n");
@@ -122,15 +121,6 @@
     }
     
     ```
-
-    
-    ```c
-#include <stdio.h>
-int main(void){
-printf(“hello world!”);
-return 0;
-}
-```
 
 
 
