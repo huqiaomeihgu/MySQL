@@ -1,11 +1,11 @@
 
-# 更新源
+## 更新源
 
 用vim打开源列表文件。
 
     sudo vim /etc/apt/sources.list
 
-# 将下面的源粘贴到源列表里。
+## 将下面的源粘贴到源列表里。
 
 ```sql
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
@@ -32,28 +32,28 @@ deb http://extras.ubuntu.com/ubuntu/ xenial main
     sudo apt-get install tasksel
     sudo tasksel
 
-# workbench 安装
+## workbench 安装
 
         sudo apt-get install mysql-workbench
 
-# 连接到本机上的MYSQL
+## 连接到本机上的MYSQL
 
         键入命令mysql -u root -p，回车后提示你输密码.
-    
-# 创建数据库
+    
+## 创建数据库
 
         注意：创建数据库之前要先连接Mysql服务器
         命令：create database <数据库名>
         例1：建立一个名为xhkdb的数据库 mysql> create database stu;
 
-# 显示数据库
+## 显示数据库
 
         show databases （注意：最后有个s） mysql> show databases;
         
-# 删除数据库
+## 删除数据库
 
         drop database <数据库名> 例如：删除名为 xhkdb的数据库 mysql> drop database xhkdb;
-# 使用数据库
+## 使用数据库
 
         命令： use <数据库名>
 
