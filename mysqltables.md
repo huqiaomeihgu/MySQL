@@ -61,3 +61,4 @@ mysql> create table information(sno char(15) not null primary key,sname char(20)
 
     update 表名 set 字段=新值,... where 条件 
     update MyClass set name='Mary' where id=1;
+    
