@@ -47,6 +47,6 @@ sudo apt-get install git
   
   git config --global core.editor vim
   
-第九步，查看提交信息.
+，查看提交信息.
 
   git log
