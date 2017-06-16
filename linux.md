@@ -111,9 +111,10 @@
     
     可以通过以下代码练习vim：
     
-    ```c 
+    ``` 
     
     #include <stdio> 
+    
     int main(void) {
       
       printf("hello \n");
