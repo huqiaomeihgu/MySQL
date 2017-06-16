@@ -30,7 +30,7 @@ deb http://extras.ubuntu.com/ubuntu/ xenial main
 
     sudo apt-get update
     sudo apt-get install tasksel
-sudo tasksel
+    sudo tasksel
 
 # workbench 安装
 
@@ -49,6 +49,7 @@ sudo tasksel
 # 显示数据库
 
         show databases （注意：最后有个s） mysql> show databases;
+        
 # 删除数据库
 
         drop database <数据库名> 例如：删除名为 xhkdb的数据库 mysql> drop database xhkdb;
