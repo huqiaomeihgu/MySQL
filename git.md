@@ -1,7 +1,9 @@
-# git命令总结
+# git文档
 
-安装GIT
+* [本地git命令](./gitlocal.md)
 
-sudo apt-get install git
+* [远程git命令](./gitfar.md)
+
+
 
 
