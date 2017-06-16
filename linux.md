@@ -96,8 +96,30 @@
     dd:剪切当前一行
     
     p: 粘贴内容到游标之后
+    
+## vim 的使用
+   
+   vim 有两种模式：命令模式，编辑模式，进入vin默认进入的是命令模式。
+   
+   按下i或a可以进入编辑模式，按ESC键可以切换到命令模式。
+   
+   退出的操作：shift+q:会提示保存后再退出
+            
+             shift+q!:不管是否保存强制退出
+             
+             shift+wq:保存退出
     
-
+    可以通过以下代码练习vim：
+    
+    ```c
+    #include <stdio> 
+    
+    int main(void) {
+      
+      printf("hello \n");
+      return 0;
+    }
+    ```
 
     
 
