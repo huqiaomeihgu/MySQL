@@ -1,12 +1,12 @@
 # 技术文档
 
-*[linux命令](./linux.md)
+* [linux命令](./linux.md)
 
-*[git命令](./git.md)
+* [git命令](./git.md)
 
-*[github操作](./github.md)
+* [github操作](./github.md)
 
-*[MySQL安装](./mysql.md)
+* [MySQL安装](./mysql.md)
 # 课程设计
 
 
