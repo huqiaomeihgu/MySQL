@@ -2,7 +2,7 @@
 
 * [linux命令](./linux.md)
 
-* [git文档](./gitcom.md)
+* [git文档](./git.md)
 
 * [github操作](./github.md)
 
