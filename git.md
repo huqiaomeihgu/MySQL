@@ -4,6 +4,6 @@
 
 * [远程git命令](./gitfar.md)
 
-
+* [git命令总结](./gitcom.md)
 
 
