@@ -2,11 +2,20 @@
 
 * [linux命令](./linux.md)
 
-* [git命令](./git.md)
+* [git命令](./gitcom.md)
+
+* [git远程仓库命令](./gitfar.md)
+
+* [git本地仓库命令](./gitlocal.md)
 
 * [github操作](./github.md)
 
-* [MySQL安装](./mysql.md)
+* [MySQL安装](./mysqlinstall.md)
+
+* [MySQL指令](./mysqlcom.md)
+
+* [创建数据库](./mysqlmade.md)
+
 
 # 课程设计
 
