@@ -18,8 +18,12 @@
         命令： use <数据库名>
         例如：如果xhkdb数据库存在，尝试存取它： mysql> use xhkdb; 屏幕提示：Database changed
 
+# 显示数据库
 
+        show databases （注意：最后有个s） mysql> show databases;
+# 删除数据库
 
+        drop database <数据库名> 例如：删除名为 xhkdb的数据库 mysql> drop database xhkdb;
+# 使用数据库
 
-
-
+        命令： use <数据库名>
