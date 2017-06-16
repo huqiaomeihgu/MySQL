@@ -32,6 +32,10 @@ deb http://extras.ubuntu.com/ubuntu/ xenial main
     sudo apt-get install tasksel
 sudo tasksel
 
+# workbench 安装
+
+        sudo apt-get install mysql-workbench
+
 # 连接到本机上的MYSQL
 
         键入命令mysql -u root -p，回车后提示你输密码.
