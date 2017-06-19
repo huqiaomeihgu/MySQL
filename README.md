@@ -10,7 +10,7 @@
 
 * [MySQL指令](./mysqlcom.md)
 
-* [CGI指令有关使用](./mysqlcom.md)
+* [CGI指令有关使用](./CGI命令及C接口的使用.md)
 
 
 
