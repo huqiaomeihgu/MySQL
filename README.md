@@ -10,6 +10,8 @@
 
 * [MySQL指令](./mysqlcom.md)
 
+* [CGI指令有关使用](./mysqlcom.md)
+
 
 
 # 课程设计
