@@ -74,7 +74,7 @@ CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着�
 
     make clean :清除原来的.cgi文件
     make :编译生成.cgi文件
-    make install :运行.cgi文件
+    make install :将.cgi文件放到指定的位置处
  
 运行成功之后可以在火狐浏览器中进行查看结果，输入localhost进行测试，测试成功后进入mysql数据库进行查看。
 
