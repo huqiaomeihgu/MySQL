@@ -56,11 +56,20 @@ CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着�
     sudo chmod 777 /usr/lib/cgi-bin/sx
     
 ## Makefile文件的修改，注意install所指命令前需要的是两个Tab键
-    vim Makefile
+
+    vim Makefile
 
     install:
       cp *.cgi /usr/lib/cgi-bin/sx
-    
+      
+ Makefile文件中实际上存储的是一系列的指令,执行make clean就是执行clean标号下的指令，清除.cgi文件，执行make install实际上就是执行复制的操作。
+ 
+ ```c
+ clean:
+    rm ./*.cgi
+ install:
+        cp *.cgi /usr/lib/cgi-bin/sx
+ ```
 ## 安装mysql的C语言库
 
     sudo apt-get update
@@ -68,8 +77,8 @@ CGI(Common Gateway Interface) 是WWW技术中最重要的技术之一，有着�
     
 ## 修改stu中的文件代码
 
-    atom . :进入atom的界面
-    
+    atom . :进入atom的界面进行修改
+   
 #### 查看Markfile文件中的指令进行操作源码文件
 
     make clean :清除原来的.cgi文件
