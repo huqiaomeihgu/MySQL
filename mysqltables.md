@@ -85,5 +85,5 @@ mysql> create table information(sno char(15) not null primary key,sname char(20)
      
         insert into information values('14','zhg',23,'04');
         
- 
+
  
