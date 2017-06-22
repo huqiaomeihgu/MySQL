@@ -139,3 +139,4 @@ patch实际上是保存两个文件的差异.
 打patch实际上就是回到某个状态。
 
      $ git am patch-name
+     
