@@ -8,5 +8,5 @@
 
 * [git介绍及安装](./git介绍及安装.md)
 
-* [github介绍及使用](./github介绍及使用.md)
+* [github介绍及使用](./github.md)
 
