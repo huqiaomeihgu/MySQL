@@ -4,7 +4,7 @@
 
 * [git文档](./git.md)
 
-* [MySQL安装](./mysqlinstall.md)
+* [数据库文档](./数据库文档.md)
 
 
 
