@@ -4,13 +4,9 @@
 
 * [git文档](./git.md)
 
-* [github操作](./github.md)
-
 * [MySQL安装](./mysqlinstall.md)
 
-* [MySQL指令](./mysqlcom.md)
 
-* [CGI指令有关使用](./CGI命令及C接口的使用.md)
 
 
 
