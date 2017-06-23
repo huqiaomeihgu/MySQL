@@ -4,5 +4,9 @@
 
 * [远程git命令](./gitfar.md)
 
+* [git命令](./gitcomm.md)
 
+* [git介绍及安装](./git介绍及安装.md)
+
+* [github介绍及使用](./github介绍及使用.md)
 
