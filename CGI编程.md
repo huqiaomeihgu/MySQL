@@ -6,3 +6,5 @@
 *[CGI命令及c接口的使用](./CGI命令及C接口的使用.md)
 
 *[Makefile文件介绍](./Makefile_infor.md)
+
+*[学生信息的真假删除](./delete_TF.md)
